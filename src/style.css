@@ -95,6 +95,11 @@ h2 {
   width: 100%;
 }
 
+input {
+  width: 40px;
+  margin-left: 10px;
+}
+
 .link-container {
   display: grid;
   grid-template-columns: 50% 50%;
