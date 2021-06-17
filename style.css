@@ -94,10 +94,17 @@ h2 {
   width: 100%;
 }
 
+.link-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 10px;
+}
+
 .source-link {
   color: olivedrab;
 }
 
+.link-1,
 .link-2 {
-  float: left;
+  font-size: 12px;
 }
