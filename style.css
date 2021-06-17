@@ -25,8 +25,24 @@ header {
 }
 
 .nav-link:hover {
-  color: olivedrab;
-  font-weight: 600;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-bottom: 0;
+  line-height: 20px;
+  font-size: 30px;
+}
+.sub-heading {
+  font-size: 20px;
+  line-height: 10px;
+}
+
+h2 {
+  background: rgb(49, 49, 49);
+  color: white;
+  margin: 0 0 15px 0;
+  font-weight: 400;
 }
 
 .image-flex {
@@ -74,10 +90,14 @@ header {
   }
 }
 
-.source-p {
-  text-align: left;
-  font-size: 13px;
+.darwin-pic {
+  width: 100%;
 }
+
 .source-link {
   color: olivedrab;
+}
+
+.link-2 {
+  float: left;
 }
