@@ -64,7 +64,7 @@ h2 {
   height: 200px;
 }
 
-.pulse {
+.pulse-1 {
   animation: pulse 9s ease-in-out infinite;
 }
 @keyframes pulse {
@@ -76,6 +76,21 @@ h2 {
   }
   100% {
     transform: scale(0.8);
+  }
+}
+
+.pulse-2 {
+  animation: pulsetwo 9s ease-in-out infinite;
+}
+@keyframes pulsetwo {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
