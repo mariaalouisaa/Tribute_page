@@ -53,15 +53,17 @@ h2 {
   flex-wrap: wrap;
 }
 .homer-1 {
-  height: 100px;
+  height: 90px;
+  padding: 10px;
 }
 
 .homer-2 {
-  height: 150px;
+  height: 120px;
+  padding: 10px;
 }
 
 .homer-3 {
-  height: 200px;
+  height: 170px;
 }
 
 .pulse-1 {
@@ -97,6 +99,7 @@ h2 {
 .rotate {
   animation: rotation 3s infinite linear;
 }
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -108,6 +111,18 @@ h2 {
 
 .darwin-pic {
   width: 100%;
+}
+
+ol {
+  border: solid black 2px;
+}
+
+li {
+  text-align: left;
+}
+
+b {
+  text-decoration: underline wavy;
 }
 
 input {
@@ -128,4 +143,19 @@ input {
 .link-1,
 .link-2 {
   font-size: 12px;
+}
+
+@media (max-width: 330px) {
+  .sub-heading {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p,
+  b,
+  li,
+  label {
+    font-size: 14px;
+  }
 }
